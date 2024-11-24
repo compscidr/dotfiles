@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# add keybindings for fzf so ctrl-r uses fzf
+source /usr/share/doc/fzf/examples/key-bindings.bash
