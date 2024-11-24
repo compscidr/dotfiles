@@ -119,3 +119,5 @@ fi
 # add keybindings for fzf so ctrl-r uses fzf
 source /usr/share/doc/fzf/examples/key-bindings.bash
 
+export COMPOSE_DOCKER_CLI_BUILD=1
+export DOCKER_BUILDKIT=1
