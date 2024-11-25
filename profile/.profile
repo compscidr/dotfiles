@@ -30,3 +30,5 @@ fi
 # Added by Toolbox App
 export PATH="$PATH:/home/jason/.local/share/JetBrains/Toolbox/scripts"
 
+# pipx apps
+export PATH="$PATH:/home/jason/.local/bin"
