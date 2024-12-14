@@ -123,3 +123,14 @@ export COMPOSE_DOCKER_CLI_BUILD=1
 export DOCKER_BUILDKIT=1
 export DEBEMAIL=ernstjason1@gmail.com
 export DEBFULLNAME=Jason Ernst
+export MOLECULE_EPHEMERAL_DIRECTORY=~/.molecule/roles
+
+if [ -f /etc/environment.d/90-gh.conf ]; then
+    . /etc/environment.d/90-gh.conf
+fi
+if [ -f /etc/environment.d/90-aws.conf ]; then
+    . /etc/environment.d/90-aws.conf
+fi
+if [ -f /etc/environment.d/90-digitalocean.conf ]; then
+    . /etc/environment.d/90-digitalocean.conf
+fi
