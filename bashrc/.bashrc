@@ -142,3 +142,23 @@ export PATH="$HOME/.jbang/bin:$PATH"
 # 1Password account signin shortcuts
 alias op-personal='eval $(op signin --account CZG3A4373RA2FC5W5JKFUMYILI)'  # ernstjason1@gmail.com
 alias op-work='eval $(op signin --account MXTDB3RE3FGANKJ2EAWMLWM2KU)'      # jason@bumpapp.xyz
+
+# Ansible/SSH host completion for managed infrastructure
+_managed_hosts() {
+  local hosts="
+    ubuntu-beast.local
+    ubuntu-silverstone.local
+    ubuntu-cube.local
+    ubuntu-work-laptop.local
+    ubuntu-asus-laptop.local
+    ubuntu-toshiba-laptop.local
+    ubuntu-toshiba-mini-laptop.local
+    jasons-macbook-air.local
+    nas.local
+    jasonernst.com
+    mail.jasonernst.com
+    projects.jasonernst.com
+  "
+  COMPREPLY=($(compgen -W "$hosts" -- "${COMP_WORDS[COMP_CWORD]}"))
+}
+complete -F _managed_hosts -o default ansible-playbook ansible ssh scp
