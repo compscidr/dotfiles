@@ -181,3 +181,6 @@ _managed_hosts() {
   COMPREPLY=($(compgen -W "$hosts" -- "${COMP_WORDS[COMP_CWORD]}"))
 }
 complete -F _managed_hosts -o default ansible-playbook ansible ssh scp
+
+# npm global packages
+export PATH="$HOME/.npm-global/bin:$PATH"
