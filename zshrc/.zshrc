@@ -56,3 +56,6 @@ _ansible_host_completion() {
 }
 
 compdef _ansible_host_completion ansible-playbook ansible ssh scp
+
+# npm global packages
+export PATH="$HOME/.npm-global/bin:$PATH"

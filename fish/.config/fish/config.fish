@@ -22,3 +22,6 @@ function op-work
     eval (op signin --account MXTDB3RE3FGANKJ2EAWMLWM2KU)
   end
 end
+
+# npm global packages
+set -gx PATH $HOME/.npm-global/bin $PATH
