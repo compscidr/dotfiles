@@ -57,5 +57,9 @@ _ansible_host_completion() {
 
 compdef _ansible_host_completion ansible-playbook ansible ssh scp
 
-# npm global packages
-export PATH="$HOME/.npm-global/bin:$PATH"
+# fnm (Fast Node Manager)
+FNM_PATH="$HOME/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="$FNM_PATH:$PATH"
+  eval "$(fnm env --use-on-cd --shell zsh)"
+fi
