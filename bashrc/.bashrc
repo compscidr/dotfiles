@@ -193,3 +193,9 @@ fi
 if [ -f "$HOME/.cargo/env" ]; then
   . "$HOME/.cargo/env"
 fi
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+alias claude-mem='/home/jason/.bun/bin/bun "/home/jason/.claude/plugins/marketplaces/thedotmack/plugin/scripts/worker-service.cjs"'
