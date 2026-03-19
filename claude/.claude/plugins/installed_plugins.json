@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "plugins": {
+    "rust-analyzer-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/jason/.claude/plugins/cache/claude-plugins-official/rust-analyzer-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2025-12-25T02:07:11.017Z",
+        "lastUpdated": "2025-12-25T02:07:11.017Z"
+      }
+    ],
+    "firebase@firebase": [
+      {
+        "scope": "user",
+        "installPath": "/home/jason/.claude/plugins/cache/firebase/firebase/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-02-05T23:41:13.925Z",
+        "lastUpdated": "2026-02-05T23:41:13.925Z",
+        "gitCommitSha": "729dbcfca4a260543d30cb08781717c027a9c369"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/jason/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.5",
+        "version": "5.0.5",
+        "installedAt": "2026-03-19T17:38:53.260Z",
+        "lastUpdated": "2026-03-19T17:38:53.260Z",
+        "gitCommitSha": "7e516434f2a30114300efc9247db32fb37daa5f9"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "android-debug-bridge": {
+      "command": "npx",
+      "args": ["android-debug-bridge-mcp"]
+    }
+  }
+}
