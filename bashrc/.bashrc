@@ -199,3 +199,8 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 alias claude-mem='/home/jason/.bun/bin/bun "/home/jason/.claude/plugins/marketplaces/thedotmack/plugin/scripts/worker-service.cjs"'
+
+# Machine-specific config (not tracked in dotfiles)
+if [ -f ~/.bashrc.local ]; then
+    . ~/.bashrc.local
+fi
