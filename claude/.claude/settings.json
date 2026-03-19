@@ -1,0 +1,8 @@
+{
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "firebase@firebase": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "effortLevel": "high"
+}
