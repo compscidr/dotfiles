@@ -23,10 +23,10 @@
     "superpowers@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/home/jason/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.5",
-        "version": "5.0.5",
+        "installPath": "/home/jason/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7",
+        "version": "5.0.7",
         "installedAt": "2026-03-19T17:38:53.260Z",
-        "lastUpdated": "2026-03-19T17:38:53.260Z",
+        "lastUpdated": "2026-04-01T16:26:28.163Z",
         "gitCommitSha": "7e516434f2a30114300efc9247db32fb37daa5f9"
       }
     ]
