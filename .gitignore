@@ -1,0 +1,12 @@
+# Apps write runtime state into directories that stow linked from this repo.
+# Only the files already tracked here are config; ignore everything else they
+# create (tracked files are unaffected by these patterns - use `git add -f` to
+# start tracking something new in these directories).
+
+# variety: wallpaper cache, history, logs, generated config
+variety/.config/variety/*
+!variety/.config/variety/variety.conf
+
+# autostart: other apps (1Password, JetBrains Toolbox, ...) add their own
+# entries, plus desktop-file caches
+autostart/.config/autostart/*
