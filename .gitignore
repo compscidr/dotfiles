@@ -1,0 +1,19 @@
+# Runtime state that apps write into directories stow links from this repo.
+# Only caches/state are ignored: anything you might want restored on a fresh
+# install (new autostart entries, variety favorites/plugins/scripts) still
+# shows up as untracked so it can be committed.
+
+# variety: wallpaper caches, history, logs, generated/UI state
+variety/.config/variety/.firstrun
+variety/.config/variety/.last_change_time
+variety/.config/variety/.version
+variety/.config/variety/Downloaded/
+variety/.config/variety/Fetched/
+variety/.config/variety/wallpaper/
+variety/.config/variety/history.txt
+variety/.config/variety/variety.log
+variety/.config/variety/ui.conf
+variety/.config/variety/variety_latest_default.conf
+
+# autostart: desktop-file cache
+autostart/.config/autostart/mimeinfo.cache
